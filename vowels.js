@@ -11,3 +11,10 @@ function vowels(str) {
 }
 
 console.log(vowels('Coding Money')); 
+
+
+function isVowel(str) {
+    const matches = str.match(/[aeiou]/gi);
+
+    return matches ? matches.length : 0;
+}
